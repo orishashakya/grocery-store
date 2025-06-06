@@ -84,7 +84,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>home page</title>
+   <title>Grocery Plus</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
@@ -109,7 +109,7 @@ if(isset($message)){
       <div class="content">
          <span>GET YOUR GROCERIES</span>
          <h3>Reach For A Healthier You With Organic Foods</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus culpa officia quasi, accusantium explicabo?</p>
+         <p>Find your organic greens.</p>
          <a href="about.php" class="btn">about us</a>
       </div>
    </section>

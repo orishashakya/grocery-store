@@ -131,7 +131,7 @@ if(isset($_POST['update_qty'])){
    </div>
 
    <div class="cart-total">
-      <p>grand total : <span>$<?= htmlspecialchars(number_format($grand_total, 2)); ?>/-</span></p>
+      <p>Grand total : <span>$<?= htmlspecialchars(number_format($grand_total, 2)); ?>/-</span></p>
       <a href="shop.php" class="option-btn">continue shopping</a>
       <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 0) ? '' : 'disabled'; ?>" onclick="return confirm('Delete all items from your cart?');">delete all</a>
       <a href="checkout.php" class="btn <?= ($grand_total > 0) ? '' : 'disabled'; ?>">proceed to checkout</a>
